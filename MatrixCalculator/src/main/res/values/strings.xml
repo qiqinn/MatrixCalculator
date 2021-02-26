@@ -1,0 +1,303 @@
+<resources>
+    <string name="app_name">Matrix Calculator</string>
+
+    <!--Menu Options-->
+    <string name="navigation_drawer_open">Buka Navigasi</string>
+    <string name="navigation_drawer_close">Tutup Navigasi</string>
+    <string name="slogan">Easy Matrix</string>
+    <string name="upgrade">Upgrade to Pro</string>
+    <string name="rate">Rate Me</string>
+    <string name="share">Share</string>
+    <string name="aboutme">Tentang</string>
+    <string name="matrix_opr">Operasi Matrix</string>
+    <string name="action_settings">Pengaturan</string>
+
+    <!--Operations-->
+    <string name="addsub">Penjumlahan</string>
+    <string name="onlysub">Pengurangan</string>
+    <string name="Home">Beranda</string>
+    <string name="clone">Salin</string>
+    <string name="Minor">Minors</string>
+    <string name="Minor_detr">First Minor</string>
+    <string name="RankofMat">Rank</string>
+    <string name="swap">Tukar</string>
+    <string name="transpose">Transpose</string>
+    <string name="multiply">Perkalian</string>
+    <string name="inverse">Inverse</string>
+    <string name="adjoint">Ad-joint</string>
+    <string name="trace_text">Trace</string>
+    <string name="function">Functional</string>
+    <string name="ScalerMult">Perkalian Skalar</string>
+    <string name="determinant">Determinant</string>
+    <string name="exponent">Exponential</string>
+    <string name="NewsUp">Bulletin Board</string>
+    <string name="direct_feedback">Direct Feedback</string>
+
+    <!--About Me Section-->
+    <string name="app_dev">Qin </string>
+    <string name="about_app">Design and Developed Qin</string>
+    <string name="reserve">Some Rights Reserved </string>
+    <string name="certificate">This is an OpenSource Project, under GPL GNU v3.0</string>
+    <string name="show_source"> </string>
+    <string name="Chooser">Select the Fastest Browser</string>
+    <string name="Logo">Logo of the App</string>
+
+    <string name="NocreateWaring">Upgrade to Pro, to add and use more Matrix Variable.</string>
+
+    <string name="ShareUsing">Share this App Using</string>
+    <string name="ShareMessage">Hey I Just Downloaded a Wonderful Matrix Calculator. Check it out here https://play.google.com/store/apps/details?id=com.softminds.matrixcalculator</string>
+
+    <string name="ExitButton">Keluar</string>
+    <string name="AddMessage">Tap untuk menambahkan matriks</string>
+
+
+    <!--Settings Preference-->
+    <string name="UI">Antarmuka Pengguna</string>
+    <string name="DarkTheme">Mode Gelap</string>
+    <string name="DarkThemePro">Mode Gelap</string>
+    <string name="DarkThemeDesc">Aplikasi menggunakan mode gelap</string>
+    <string name="ExtraSmallFontT">Ukuran font lebih kecil</string>
+    <string name="ExtraSmallFontTPro">Ukuran font lebih kecil</string>
+    <string name="SmartFit">Smart Fit</string>
+    <string name="SmartFitDes">Menyesuailkan dengan matriks ordo tinggi ke layar dengan mengurangi ukuran font elemen</string>
+    <string name="ExtraSmallFontD">Mengurangi ukuran font ketika menampilkan hingga 8 digit</string>
+    <string name="CardChange">Ganti warna kartu</string>
+    <string name="CardSummary">Ubah warna kartu yang menyimpan Matriks</string>
+    <string name="CardElevate">Elevasi kartu</string>
+    <string name="CardElevateDesc">Ubah elevasi kartu matriks, semakin banyak nilai matriks 3-D akan terlihat. </string>
+    <string name="other">Pengaturan tambahan</string>
+    <string name="AutoPersist">Variabel tetap</string>
+    <string name="AutoPersistDesc">Variabel akan tetap walapun aplikasi telah ditutup</string>
+    <string name="RestoreDefault">Memulihkan</string>
+    <string name="RestoreInfo">Kembalikan semua pengaturan ke default</string>
+    <string name="title2">Penghitungan</string>
+    <string name="EnableRounding">Pembulatan hasil</string>
+    <string name="EnableRoundingPro">Pembulatan hasil</string>
+    <string name="EnableRoundingDesc">Hasil yang Dihitung akan Dibulatkan dari Desimal</string>
+    <string name="NoFraction">Pembalikan Pecahan</string>
+    <string name="NoFractionDesc">Atur jenis pembalikan ke tampilkan sebagai hasil, jika diaktifkan, hasil akan menjadi matriks mutlak dengan koefisien pecahan</string>
+    <string name="DecimalUse">Decimals dan Exponent</string>
+    <string name="DecimalUseDesc">Menampilkan angka dan eksponen desimal dalam hasil</string>
+    <string name="RandT">Pengaturan angka acak</string>
+    <string name="SignedTitle">Nilai</string>
+    <string name="SignedTitleDesc">Hasilkan angka acak negatif dan positif sambil mengisi matriks dalam rentang tertent</string>
+    <string name="MaximiumT">Batas Atas</string>
+    <string name="MaximumTPro">Batas atas</string>
+    <string name="MinimumT">Batas Bawah </string>
+    <string name="MinimumTPro">Batas bawah</string>
+    <string name="RestoreComplete">Pengaturan berhasil dipulihkan</string>
+    <string name="MaximumD">Angka terbesar yang dibolehkan(Default 100)</string>
+    <string name="MinimumD">Angka terkecil yang dibolehkan (Default 0)</string>
+    <string name="TransposeHead">Transpose Prompt</string>
+    <string name="TransposeSummary">Prompt Ditampilkan jika matriks yang akan ditranspose, dapat disimpan kembali dalam matriks yang sama</string>
+    <string name="AutoEnabled">Mengubah \ "inverse pecahan \" untuk mencocokkan perubahan</string>
+    <string name="AllowDecimals">Izinkan angka desimal dalam Pengaturan</string>
+    <string name="CannotSave2">Tidak dapat menyimpan karena hasil bukan matriks</string>
+
+    <!-- Variable Creation Activity-->
+    <string name="NewMatrix">Buat sebuah variabel baru</string>
+    <string name="Nameit">nama Variabel matriks</string>
+    <string-array name="MatrixT">
+        <item>Normal</item>
+        <item>Identitas</item>
+        <item>Null</item>
+        <item>Diagonal</item>
+    </string-array>
+    <string name="Row">Baris</string>
+    <string name="Col">Kolom</string>
+    <string name="MatrixType">Type : </string>
+    <string name="Warning1">Harus diisi</string>
+    <string name="Filling">Isi matriks</string>
+    <string name="NotSquare">Harus matriks persegi</string>
+
+
+    <!-- Title bar of Filler LegacyMatrix-->
+    <string name="RandomInput">Isi sembarang angka</string>
+    <string name="RandomInputFloat">Isi sembarang desimal</string>
+    <string name="FillallAs1">Isi sel kosong dengan 1</string>
+    <string name="FillasZero">Isi sel kosong dengan 0</string>
+    <string name="Confirm">Buat</string>
+    <string name="Warning2">Beberapa element matriks kosong</string>
+
+
+    <!--Custom Filler-->
+    <string name="CustomFill">Isi nilai custom</string>
+    <string name="ValueHint">Nilai yang ingin dimasukkan pada sel kosong</string>
+    <string name="ConfirmMake">Konfir</string>
+    <string name="CancelCustomFill">Batal</string>
+    <string name="NoValue">Tidak ada nilai</string>
+    <string name="Clear">Hapus semua</string>
+    <string name="Warning3">WARNING : Batas bawah melampaui batas atas, aplikasi mungkin macet</string>
+    <string name="Warning4">Apa kamu yakin, nilai diatas akan terhapus?</string>
+    <string name="thanks_for_using">Terimaksih</string>
+    <string name="TransposePrompt">Transpose Type</string>
+    <string name="Yup">Ya</string>
+
+    <!--Feedback-->
+    <string name="FeedBack">Feedback</string>
+    <string name="Mazak">I am Pleased, You have something to Share With Me</string>
+    <string name="Send">Send</string>
+    <string name="MaybeNot">Not Now</string>
+    <string name="Warning5">You Should not use Abusive Language</string>
+    <string name="Warning6">Did You forgot to Enter Message</string>
+    <string name="Warning7">Text is Abusive</string>
+    <string name="ok">Okay</string>
+
+    <string name="clear">BERSIHKAN</string>
+    <string name="Warning8">Tidak ada yang dibersihkan</string>
+    <string name="Warning9">Hapus semua variabel matriks ?</string>
+    <string name="WarningExit">Kelur ?</string>
+
+    <string name="edit">Edit element</string>
+    <string name="Delete">Hapus</string>
+    <string name="Delete2">Hapus</string>
+    <string name="Rename">Ganti nama varibel </string>
+    <string name="OrderChange">Ubah Ordo</string>
+    <string name="ConfirmTheValueChange">Simpan</string>
+    <string name="SetOriginalValue">Kembalikan perubahan</string>
+    <string name="RevertSuccess">Kembalikan ke nilai aslinya</string>
+    <string name="Deleted">Terhapus</string>
+    <string name="ConfirmSuccess">Berhasil diperbarui</string>
+
+
+    <string name="SetNewOrder">Set New Order</string>
+    <string name="Warning10">Newly Created Elements will get Default Value of 0</string>
+
+
+    <string name="ChangedOrder">Ordo berhasil diubah</string>
+    <string name="ShortAddSub">Penjumlahan</string>
+    <string name="ShortOnlySub">Pengurangan</string>
+    <string name="Scaler">Penjumlahan skalar</string>
+    <string name="ShortCustom">Custom</string>
+    <string name="MainSubtitle">Semua variabel</string>
+    <string name="NothingCreated">Tap tombol dibawah untuk menambahkan variabel</string>
+
+    <string name="OpenHint">Tap tombol dibawah untuk menambahkan variabel</string>
+    <string name="Created">variabel berhasil ditambahkan</string>
+    <string name="OpenHint2">Tambahkan sebuah varibel untuk diproses</string>
+    <string name="NoSupport">Varibel tidak mendukung operasi</string>
+    <string name="Calculating">Menghitung..</string>
+    <string name="Warning11">Determinant dihitung tetati tidak ditampilkan</string>
+
+
+    <string name="Result">Hasil</string>
+    <string name="save">Simpan</string>
+
+    <string name="EnterExpo">Masukan Exponen</string>
+    <string name="Expohint">Masukan eksponen disini</string>
+
+    <string name="CopyToClip">Copied to Clipboard</string>
+    <string name="copy">Salin</string>
+    <string name="Done">Seleai</string>
+
+    <string name="CannotSave">Tidak dapat disimpan hasil melebihi 999999 </string>
+    <string name="SavedAs">Simpan sebagai</string>
+
+    <string name="SquareTransPrompt">Matriks Persegi terdeteksi. Apakah Anda ingin Menyimpan Transpose di Variabel ini, Nilai Saat Ini akan Hilang.</string>
+    <string name="Nope">Tidak</string>
+    <string name="SuccessTranspose">Hasil yang Ditransposisikan Disimpan kembali ke Matriks</string>
+    <string name="NoneSwap">Tidak Ada Variabel Matriks yang Kompatibel</string>
+    <string name="SwapSucc">Tertukar</string>
+    <string name="ExpoOverflow">Masukan nilai yang lebih kecil</string>
+    <string name="NoInverse">Tidak ada invers</string>
+
+    <string name="MultiplierPlease">Masukan pengalih</string>
+
+    <!--Functional Activity-->
+    <string name="FunctionalTitle">Create the Function</string>
+    <string name="FunctionalExponent">Exponent</string>
+    <string name="FunctionalDegree">Terms</string>
+    <string name="ConfirmFunction">Proceed</string>
+    <string name="Coefficient">Enter Coefficient here</string>
+    <string name="PreView">Preview of the Function</string>
+    <string name="FunctionX">f(x) =  </string>
+    <string name="X">x1</string>
+    <string name="plus">+</string>
+    <string name="one">1</string>
+    <string name="Warning12">Click a Term to Proceed</string>
+    <string name="Selected">Selected</string>
+    <string name="NewX"><b>x</b></string>
+    <string name="FunctionMakerHint">Click on the Operator to Change its Sign</string>
+
+    <!--Addition Fragment-->
+    <string name="AddTip">Ketuk pada item daftar untuk menambahkannya ke antrian penambahan</string>
+    <string name="AddQueue">Antrian penjumlahan</string>
+    <string name="Proceed">Proses</string>
+    <string name="Notdefined">Operasi tidak ditemukan</string>
+    <string name="RemoveLast">Hapus dari antrian</string>
+    <string name="NothingTORemove">Tidak ada yang dihapus</string>
+
+    <!--Sub Fragment-->
+    <string name="SubTip">Ketuk pada item daftar untuk menambahkannya ke antrian pengurangan</string>
+    <string name="SubQueue">Anterian pengurangan</string>
+
+    <!--Multiply Fragment-->
+    <string name="MulTip">Ketuk pada item daftar untuk menambahkannya ke antrian perkalian</string>
+    <string name="MulQueue">Anterian perkalian</string>
+
+    <string name="LimitExceeds">To Create more Upgrade to Pro</string>
+    <string name="LimitExceeds2">Cannot Add a New Variable</string>
+
+    <string name="OnlyPro">This is a Pro feature</string>
+    <string name="OpeningPlay">Opening Play store</string>
+    <string name="FatalError">An Error Resulted force close of Splash Screen</string>
+    <string name="NoDataAvailable">Your Advertisement could be here</string>
+    <string name="ErrorOccured"><b>Error Occurred</b> If You are on Android 4.4.4 or above, Please Report</string>
+    <string name="ViewHints">Click on the Element to get its First Minor </string>
+
+    <!--Misc-->
+    <string name="RedInfo">Berita Penting Ditandai dengan Merah</string>
+    <string name="InternetPlzz">Sesuatu bermasalah</string>
+    <string name="Loading">Memuat Pengumuman</string>
+    <string name="Wait">Tunggu..</string>
+    <string name="Warning13">Tidak boleh mengunakan (+,-,x) pada nama variabel</string>
+
+
+    <!--Quick Actions-->
+    <string name="QuickDelete">Hapus</string>
+    <string name="QuickRename">Ubah nama</string>
+    <string name="QuickOrder">Ubah ordo</string>
+    <string name="Refresh">Refresh</string>
+    <string name="EnforceRef">Silahkan tekan tombol refresh</string>
+    <string name="ClickToExit">Tekan lagi untuk keluar</string>
+    <string name="ThanksForDonation">Termakasih</string>
+    <string name="Upgrade">Upgraded</string>
+    <string name="UpgradeMess">Sorry to Inform. This feature is only available in Donated Version.</string>
+
+    <!--Rate Dialog-->
+    <string name="SadRequ">Maybe Some Day You Change Your Mind</string>
+    <string name="WontRate">Never</string>
+    <string name="WeLoveYou">We Love You</string>
+    <string name="RateRequest">Hii, We have removed all the Advertisements and We have Enabled Pro features for Free. Does that not Worth a Five Star..??</string>
+    <string name="later">Later</string>
+    <string name="RateNow">Rate</string>
+    <string name="ReportMessage">You can give a Direct Feedback or If you are a github user, You can directly raise an Issue on github</string>
+    <string name="ProceedGithub">Github</string>
+    <string name="MailtoDev">Direct Feedback</string>
+    <string name="OpenUsing">Open Using</string>
+    <string name="EnableDecimals">Enable Decimals and Exponents</string>
+    <string name="invalid_install">The Key was not Installed from Play Store. If it was, file a request in Direct Feedback</string>
+    <string name="trace_is">Trace is :</string>
+    <string name="determinant_is">Determinant is :</string>
+    <string name="clear_warn_invalid_install">Your Key was not Installed from PlayStore.</string>
+    <string name="cancel">Cancel</string>
+    <string name="first_minor_is">First Minor of :</string>
+    <string name="invalid_numbers">Matrix should only have Integers or Decimal Numbers</string>
+
+    <string name="upgrade_needed">Untuk Membuat Lebih Banyak Variabel Harap Tingkatkan</string>
+    <string name="on_low_memory">Ruang penyimpanan hampir penuh </string>
+    <string name="low_memory_mess">Ruang penyimpanan hampir penuh. Untuk mendapatkan kembali memori, android dapat menghancurkan Variabel yang dibuat sebelumnya. Apakah Anda ingin Melanjutkan?</string>
+    <string name="proceed_to_create">Proses untuk membuat</string>
+    <string name="equality_op">Persamaan</string>
+    <string name="matrix_not_found">Ups! Matriks yang Dibuat Dihancurkan oleh Android. Mungkin Memori Anda Hampir Penuh</string>
+    <string name="unexpected_error">Kesalahan tak terduga</string>
+    <string name="normOne">First Norm</string>
+    <string name="normTwo">Second Norm</string>
+    <string name="normFreb">Frobenious Norm</string>
+    <string name="normInfinity">Infinity Norm</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Blank</string>
+    <string name="AbsoluteVal">Nilai mutlak</string>
+
+</resources>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--The Following Words were mentioned to avoid its uses in educating app of matrix calculator-->
+    <string-array name="Words">
+        <item>Fuck</item>
+        <item>Fucking</item>
+        <item>Dildo</item>
+        <item>Pussy</item>
+        <item>Motherfucker</item>
+        <item>Penis</item>
+        <item>Vagina</item>
+        <item>Cock</item>
+        <item>Dick</item>
+        <item>Shit</item>
+        <item>Bitch</item>
+        <item>Whore</item>
+        <item>Ass</item>
+    </string-array>
+
+</resources>

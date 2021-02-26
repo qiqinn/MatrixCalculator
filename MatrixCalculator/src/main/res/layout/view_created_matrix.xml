@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/view_created_matrix"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.softminds.matrixcalculator.base_activities.ViewCreatedMatrix">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/AdCard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="5dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="15dp"
+        android:visibility="gone"
+        app:cardBackgroundColor="@color/grey"
+        app:cardElevation="3dp">
+
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/adViewCreatedView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="15dp"
+            android:layout_marginTop="15dp"
+            app:adSize="BANNER"
+            app:adUnitId="@string/addunit_viewCreated"/>
+    </android.support.v7.widget.CardView>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/AdCard"
+        android:scrollbars="none"
+        android:fillViewport="true"
+        android:layout_centerHorizontal="true">
+
+        <HorizontalScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scrollbars="none"
+            android:layout_gravity="center_horizontal"
+            android:fillViewport="true">
+
+            <LinearLayout
+                android:id="@+id/FragmentContainer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingEnd="10dp"
+                android:paddingStart="10dp" />
+        </HorizontalScrollView>
+    </ScrollView>
+</RelativeLayout>
